@@ -7,7 +7,9 @@
             Console.Write("Gebruikersnaam: ");
             string naam = Console.ReadLine();
 
-            
+            Console.Write("Wachtwoord: ");
+            string wachtwoord = Console.ReadLine();
+
 
 
         }
