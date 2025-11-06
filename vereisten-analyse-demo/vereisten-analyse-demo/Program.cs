@@ -18,6 +18,9 @@
 
                 if (naam == juisteNaam && wachtwoord == juisteWachwood)
                 {
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine("Jij bent ingelogd!");
+                    Console.ResetColor();
                     return;
                 }
                 else
@@ -32,7 +35,7 @@
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("Te veel pogingen probeer het later opnieuw!!");
             Console.ResetColor();
-
+            
         }
     }
 }
